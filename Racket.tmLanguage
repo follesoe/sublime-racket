@@ -47,7 +47,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(if|lambda|cond|define|type-case|let|letrec|let!|\#lang|require|test|else|first|rest|define-type|define-type-alias|define-struct|not|local|error)[\s\)]</string>
+			<string>\b(if|lambda|cond|define|type-case|let|letrec|let!|\#lang|require|test|else|first|rest|define-type|define-type-alias|define-struct|not|local|error|lang)[\s\)]</string>
 			<key>name</key>
 			<string>meta.keywords.source.racket</string>
 		</dict>
