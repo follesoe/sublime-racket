@@ -1,0 +1,4 @@
+{
+	"cmd": ["racket", "$file"],
+	"selector": "source.rkt"
+}
