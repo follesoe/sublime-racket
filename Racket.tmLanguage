@@ -45,6 +45,44 @@
 					<key>name</key>
 					<string>keyword.source.racket</string>
 				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\((define)\s+\(([a-zA-Z0-9_\-?\+^]+)\s*</string>
+			<key>name</key>
+			<string>meta.function.source.racket</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.source.racket</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\((struct)\s+([a-zA-Z0-9_\-?\+^]+)\s+</string>
+			<key>name</key>
+			<string>meta.struct.source.racket</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.source.racket</string>
+				</dict>
 			</dict>
 			<key>match</key>
 			<string>\b(if|lambda|cond|define|type-case|let|letrec|let!|\#lang|require|test|else|first|rest|define-type|define-type-alias|define-struct|not|local|error|lang)[\s\)]</string>
