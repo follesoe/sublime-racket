@@ -85,15 +85,33 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\b(if|lambda|cond|define|type-case|let|letrec|let!|\#lang|require|test|else|first|rest|define-type|define-type-alias|define-struct|not|local|error|lang)[\s\)]</string>
+			<string>[\s\(](if|lambda|cond|define|type-case|let|letrec|let!|\#lang|require|test|else|first|rest|define-type|define-type-alias|define-struct|not|local|error|lang)[\s\)]</string>
 			<key>name</key>
 			<string>meta.keywords.source.racket</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.language.source.racket</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>\b(true|false|empty|cons)[\s\)]</string>
-			<key>name</key>
-			<string>constant.language.source.racket</string>
+			<string>[\s\(](true|false|empty|null)[\s\)]</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.language.source.racket</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>[\s\(](#t|#f)[\s\)]</string>
 		</dict>
 		<dict>
 			<key>match</key>
