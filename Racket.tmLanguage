@@ -143,6 +143,14 @@
 			<key>name</key>
 			<string>comment.line.documentation.source.racket</string>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>#\|</string>
+			<key>end</key>
+			<string>\|#</string>
+			<key>name</key>
+			<string>comment.block.source.racket</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.racket</string>
