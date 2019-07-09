@@ -115,7 +115,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>[\s\(](#t|#f)[\s\)]</string>
+			<string>[\s\(\[\{](#t|#true|#f|#false)[\s\)\]\}]</string>
 		</dict>
 		<dict>
 			<key>captures</key>
