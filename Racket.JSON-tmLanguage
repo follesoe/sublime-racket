@@ -25,6 +25,9 @@
     {"name": "constant.numeric.integer.source.racket",
      "match": "\\b(0|([1-9][0-9_]*))\\b"
     },
+    {"name": "constant.numeric.float.source.racket",
+     "match": "\\b(0|([1-9][0-9]*))\\.([0-9]+)\\b"
+    },
     {"name": "comment.line.documentation.source.racket",
      "begin": ";",
      "end": "$\\n"
