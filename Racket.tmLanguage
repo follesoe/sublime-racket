@@ -131,7 +131,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(0|([1-9][0-9_]*))\b</string>
+			<string>\b(0|([1-9][0-9]*))\.([0-9]+)\b</string>
+			<key>name</key>
+			<string>constant.numeric.float.source.racket</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(0|([1-9][0-9_]*))</string>
 			<key>name</key>
 			<string>constant.numeric.integer.source.racket</string>
 		</dict>
